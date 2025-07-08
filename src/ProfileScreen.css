@@ -12,6 +12,7 @@
   top: 0;
   left: 0;
   z-index: 9999;
+  position: relative;
 }
 
 .logo {
@@ -20,6 +21,8 @@
   color: #e50914;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .hero-section {

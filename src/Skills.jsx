@@ -44,27 +44,51 @@ function Skills() {
       <h2 style={headi}> Skills</h2>
       <div style={containerStyle}>
         <div style={boxStyle}>
-          <img style={skillIcon} src="/react1.png" alt="React" />
+          <img
+            style={skillIcon}
+            src="https://prernapal130.github.io/prerna-portfolio/react1.png"
+            alt="React"
+          />
           React.js
         </div>
         <div style={boxStyle}>
-          <img style={skillIcon} src="/js1.png" alt="JavaScript" />
+          <img
+            style={skillIcon}
+            src="https://prernapal130.github.io/prerna-portfolio/js1.png"
+            alt="JavaScript"
+          />
           JavaScript
         </div>
         <div style={boxStyle}>
-          <img style={skillIcon} src="/html1.png" alt="html" />
+          <img
+            style={skillIcon}
+            src="https://prernapal130.github.io/prerna-portfolio/html1.png"
+            alt="html"
+          />
           HTML
         </div>
         <div style={boxStyle}>
-          <img style={skillIcon} src="/css1.png" alt="CSS" />
+          <img
+            style={skillIcon}
+            src="https://prernapal130.github.io/prerna-portfolio/css1.png"
+            alt="CSS"
+          />
           CSS
         </div>
         <div style={boxStyle}>
-          <img style={skillIcong} src="/git1.png" alt="github" />
+          <img
+            style={skillIcong}
+            src="https://prernapal130.github.io/prerna-portfolio/git1.png"
+            alt="github"
+          />
           Git & GitHub
         </div>
         <div style={boxStyle}>
-          <img style={skillIcon} src="/cpp1.png" alt="cpp" />
+          <img
+            style={skillIcon}
+            src="https://prernapal130.github.io/prerna-portfolio/cpp1.png"
+            alt="cpp"
+          />
           C++
         </div>
       </div>

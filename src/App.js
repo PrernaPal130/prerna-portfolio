@@ -17,7 +17,9 @@ function Home() {
   const navigate = useNavigate();
 
   const playSound = () => {
-    const sound = new Audio("/sounds/netflix-sound.mp3");
+    const sound = new Audio(
+      "https://prernapal130.github.io/prerna-portfolio/sounds/netflix-sound.mp3"
+    );
     sound.play();
     setIsClicked(true);
     setTimeout(() => {
@@ -31,7 +33,6 @@ function Home() {
   return (
     <div className="App">
       {!showWhoIsWatching ? (
-        // Main UI
         <header className="hero-section1">
           <div className="hero-content">
             <h1 className="prerna-text">PRERNA</h1>
@@ -42,20 +43,28 @@ function Home() {
           </div>
         </header>
       ) : (
-        // Who's Watching UI
         <div className="who-is-watching-screen">
           <h2>Who's Watching?</h2>
           <div className="profile-selection">
             <div className="profile p1" onClick={handleProfileClick}>
-              <img src="/images/blue.png" alt="Recruiter" />
+              <img
+                src="https://prernapal130.github.io/prerna-portfolio/images/blue.png"
+                alt="Recruiter"
+              />
               <p>Recruiter</p>
             </div>
             <div className="profile p2" onClick={handleProfileClick}>
-              <img src="/images/red.png" alt="Developer" />
+              <img
+                src="https://prernapal130.github.io/prerna-portfolio/images/red.png"
+                alt="Developer"
+              />
               <p>Developer</p>
             </div>
             <div className="profile p3" onClick={handleProfileClick}>
-              <img src="/images/grey.png" alt="Friends" />
+              <img
+                src="https://prernapal130.github.io/prerna-portfolio/images/grey.png"
+                alt="Friends"
+              />
               <p>Friends</p>
             </div>
           </div>
@@ -67,7 +76,7 @@ function Home() {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/prerna-portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<ProfileScreen />} />

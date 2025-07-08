@@ -5,37 +5,39 @@ function Project() {
     {
       title: "Competive coding website",
       link: "https://prernapal130.github.io/coding-site-/",
-      image: "/CC.jpg",
+      image: "https://prernapal130.github.io/prerna-portfolio/CC.jpg",
       techStack: ["HTML", "CSS", "JavaScript"],
     },
     {
       title: "Jagriti (College Club official website)",
-      link: "",
-      image: "/Jagriti site.jpg",
+      link: "https://prernapal130.github.io/prerna-portfolio/",
+      image: "https://prernapal130.github.io/prerna-portfolio/Jagriti site.jpg",
       techStack: ["HTML", "CSS", "React"],
     },
     {
       title: "Animal Classifier",
       link: "https://prernapal130.github.io/Ai-image/",
-      image: "/animal classifier.jpg",
+      image:
+        "https://prernapal130.github.io/prerna-portfolio/animal classifier.jpg",
       techStack: ["HTML", "CSS", "React", "Teachable Machines"],
     },
     {
       title: "Portfolio",
       link: "",
-      image: "/animal classifier.jpg",
+      image:
+        "https://prernapal130.github.io/prerna-portfolio/animal classifier.jpg",
       techStack: ["HTML", "CSS", "React", "Teachable Machines"],
     },
     {
       title: "Birthday Present",
       link: "https://prernapal130.github.io/birthday-countdown/",
-      image: "/birthday.png",
+      image: "https://prernapal130.github.io/prerna-portfolio/birthday.png",
       techStack: ["HTML", "CSS", "React"],
     },
     {
       title: "Valentine's Day for singles",
       link: "https://prernapal130.github.io/valatines-day2024/",
-      image: "/valantines.png",
+      image: "https://prernapal130.github.io/prerna-portfolio/valantines.png",
       techStack: ["HTML", "CSS", "React"],
     },
   ];
@@ -101,7 +103,6 @@ function Project() {
           <img style={skillIcon} src={project.image} alt="Projects" />
           <h5>{project.title}</h5>
 
-          {/* Render techStack if it exists */}
           {project.techStack && (
             <div style={techStyle}>
               {project.techStack.map((tech, idx) => (

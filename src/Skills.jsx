@@ -70,7 +70,7 @@ function Skills() {
         <div style={boxStyle}>
           <img
             style={skillIcon}
-            src="https://prernapal130.github.io/prerna-portfolio/css1.png"
+            src="https://prernapal130.github.io/prerna-portfolio/Css1.png"
             alt="CSS"
           />
           CSS
@@ -78,7 +78,7 @@ function Skills() {
         <div style={boxStyle}>
           <img
             style={skillIcong}
-            src="https://prernapal130.github.io/prerna-portfolio/git1.png"
+            src="https://prernapal130.github.io/prerna-portfolio/Git1.png"
             alt="github"
           />
           Git & GitHub

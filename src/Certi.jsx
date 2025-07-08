@@ -6,13 +6,13 @@ function Certi() {
       title: "HTML, CSS, and JavaScript: Building the Web",
       issuer: "By LinkedIn Learning",
       link: "https://www.linkedin.com/learning/certificates/09fb5e029ef5514547ca0efadb72b3c798c3242b07fc06c51017520e3f426b4d?trk=share_certificate",
-      image: "https://prernapal130.github.io/prerna-portfolio/ll.png",
+      image: "https://prernapal130.github.io/prerna-portfolio/link.png",
     },
     {
       title: "Career Essentials in GitHub Professional Certificate",
       issuer: "By LinkedIn Learning",
       link: "https://www.linkedin.com/learning/certificates/09fb5e029ef5514547ca0efadb72b3c798c3242b07fc06c51017520e3f426b4d?trk=share_certificate",
-      image: "https://prernapal130.github.io/prerna-portfolio/ll.png",
+      image: "https://prernapal130.github.io/prerna-portfolio/link.png",
     },
   ];
 

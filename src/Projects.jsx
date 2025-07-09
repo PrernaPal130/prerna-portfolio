@@ -23,7 +23,7 @@ function Project() {
     },
     {
       title: "Portfolio",
-      link: "https://prernapal130.github.io/prerna-portfolio/profile",
+      link: "https://prernapal130.github.io/prerna-portfolio/",
       image: "https://prernapal130.github.io/prerna-portfolio/port.png",
       techStack: ["HTML", "CSS", "React", "Teachable Machines"],
     },

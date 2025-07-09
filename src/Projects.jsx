@@ -23,9 +23,8 @@ function Project() {
     },
     {
       title: "Portfolio",
-      link: "",
-      image:
-        "https://prernapal130.github.io/prerna-portfolio/animal classifier.jpg",
+      link: "https://prernapal130.github.io/prerna-portfolio/profile",
+      image: "https://prernapal130.github.io/prerna-portfolio/port.png",
       techStack: ["HTML", "CSS", "React", "Teachable Machines"],
     },
     {

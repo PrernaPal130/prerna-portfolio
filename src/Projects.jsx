@@ -10,7 +10,7 @@ function Project() {
     },
     {
       title: "Jagriti (College Club official website)",
-      link: "https://prernapal130.github.io/prerna-portfolio/",
+      link: "https://jagriticlub.vercel.app/",
       image: "https://prernapal130.github.io/prerna-portfolio/Jagriti site.jpg",
       techStack: ["HTML", "CSS", "React"],
     },
@@ -38,6 +38,12 @@ function Project() {
       link: "https://prernapal130.github.io/valatines-day2024/",
       image: "https://prernapal130.github.io/prerna-portfolio/valantines.png",
       techStack: ["HTML", "CSS", "React"],
+    },
+    {
+      title: "Solar System",
+      link: "https://prernapal130.github.io/SolarSystem/",
+      image: "https://prernapal130.github.io/prerna-portfolio/solar.png",
+      techStack: ["HTML", "CSS", "three.js", "vanilla Js "],
     },
   ];
 

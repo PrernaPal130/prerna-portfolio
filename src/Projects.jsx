@@ -3,6 +3,12 @@ import React from "react";
 function Project() {
   const projects = [
     {
+      title: "Apna Closet",
+      link: "https://rentnama-site.vercel.app/",
+      image: "https://prernapal130.github.io/prerna-portfolio/ApnaCloset.png",
+      techStack: ["HTML", "Tailwind Css", "Next.js","Node.js","firebase firestone"],
+    }
+    {
       title: "Competive coding website",
       link: "https://prernapal130.github.io/coding-site-/",
       image: "https://prernapal130.github.io/prerna-portfolio/CC.jpg",
@@ -27,6 +33,13 @@ function Project() {
       image: "https://prernapal130.github.io/prerna-portfolio/port.png",
       techStack: ["HTML", "CSS", "React", "Teachable Machines"],
     },
+         
+    {
+      title: "College Pyq",
+      link: "https://collegepyq.vercel.app/",
+      image: "https://prernapal130.github.io/prerna-portfolio/college pyq.png",
+      techStack: ["Next.js","Node.js","firebase firestone","CSS"],
+    }
     {
       title: "Birthday Present",
       link: "https://prernapal130.github.io/birthday-countdown/",

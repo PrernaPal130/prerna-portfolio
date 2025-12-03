@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prerna-portfolio/static/css/main.22d45b91.css",
-    "main.js": "/prerna-portfolio/static/js/main.66f8cc49.js",
+    "main.js": "/prerna-portfolio/static/js/main.ca5912f9.js",
     "static/js/488.a870dec8.chunk.js": "/prerna-portfolio/static/js/488.a870dec8.chunk.js",
     "index.html": "/prerna-portfolio/index.html",
     "main.22d45b91.css.map": "/prerna-portfolio/static/css/main.22d45b91.css.map",
-    "main.66f8cc49.js.map": "/prerna-portfolio/static/js/main.66f8cc49.js.map",
+    "main.ca5912f9.js.map": "/prerna-portfolio/static/js/main.ca5912f9.js.map",
     "488.a870dec8.chunk.js.map": "/prerna-portfolio/static/js/488.a870dec8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22d45b91.css",
-    "static/js/main.66f8cc49.js"
+    "static/js/main.ca5912f9.js"
   ]
 }

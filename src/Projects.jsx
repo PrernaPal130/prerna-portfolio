@@ -6,8 +6,14 @@ function Project() {
       title: "Apna Closet",
       link: "https://rentnama-site.vercel.app/",
       image: "https://prernapal130.github.io/prerna-portfolio/ApnaCloset.png",
-      techStack: ["HTML", "Tailwind Css", "Next.js","Node.js","firebase firestone"],
-    }
+      techStack: [
+        "HTML",
+        "Tailwind Css",
+        "Next.js",
+        "Node.js",
+        "firebase firestone",
+      ],
+    },
     {
       title: "Competive coding website",
       link: "https://prernapal130.github.io/coding-site-/",
@@ -33,13 +39,13 @@ function Project() {
       image: "https://prernapal130.github.io/prerna-portfolio/port.png",
       techStack: ["HTML", "CSS", "React", "Teachable Machines"],
     },
-         
+
     {
       title: "College Pyq",
       link: "https://collegepyq.vercel.app/",
       image: "https://prernapal130.github.io/prerna-portfolio/college pyq.png",
-      techStack: ["Next.js","Node.js","firebase firestone","CSS"],
-    }
+      techStack: ["Next.js", "Node.js", "firebase firestone", "CSS"],
+    },
     {
       title: "Birthday Present",
       link: "https://prernapal130.github.io/birthday-countdown/",
@@ -63,14 +69,12 @@ function Project() {
   const boxStyle1 = {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "flex-start",
-    alignItems: "flex-start",
     background: "#ffffff1a",
     color: "#fff",
     borderRadius: "8px",
     padding: "1rem",
     margin: "0.5rem",
-    width: "20vw",
+    width: "280px", // FIX HERE
     height: "fit-content",
     cursor: "pointer",
     transition: "transform 0.2s ease-in-out",
@@ -92,6 +96,7 @@ function Project() {
     backgroundColor: "black",
     minHeight: "100vh",
     justifyContent: "flex-start",
+    marginTop: "300px",
   };
 
   const techStyle = {
